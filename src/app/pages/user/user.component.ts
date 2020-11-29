@@ -44,6 +44,9 @@ export class UserComponent implements OnInit {
     this.allUser();
   }
 
+  /**
+   * get all users
+   */
   allUser() {
     this.userService.allUsers(this.pageIndex + 1, this.pageSize).subscribe((result: PageResult) => {
       this.total = result.total;
