@@ -118,7 +118,7 @@ export class UserService {
 
   /**
    * Create user
-   * @param user
+   * @param user user
    */
   addUser(user: User): Observable<User> {
     const observeble = new Observable<User>(

@@ -149,7 +149,7 @@ export class UserComponent implements OnInit {
         });
         this.dataSource = data;
         this.isVisible = false;
-        this.message.success('User Edited successfully!');
+        this.message.success('User edited successfully!');
       });
     }
   }
